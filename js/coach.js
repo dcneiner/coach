@@ -28,7 +28,7 @@ var Coach = (function (undefined) {
   // When the first item is pushed onto the queue, this is changed
   // to true. When the rate limit is reset, this value is changed
   // back to false.
-  paused = false;
+  paused = false,
   
   // This value is incremented and used to ensure a unique function
   // name for each callback used with the JSON-P requests.
@@ -62,7 +62,7 @@ var Coach = (function (undefined) {
     timer = window.setTimeout(function () {
       counter = 0;
       
-      if (paused == true && Coach.onResume) {
+      if (paused === true && Coach.onResume) {
         Coach.onResume.call(Coach);
       }
       
