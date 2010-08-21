@@ -2,7 +2,8 @@
 
 **Author:** [Doug Neiner](http://dougneiner.com)  
 **License:** Dual licensed under the [MIT](http://creativecommons.org/licenses/MIT/) or [GPL](http://creativecommons.org/licenses/GPL/2.0/)  
-**Copyright:** 2010 by Doug Neiner
+**Copyright:** 2010 by Doug Neiner  
+**Credit:** The callback mechanism used inside Coach was influenced by the code from [Half Court Shot](http://code.google.com/p/halfcourtshot/), also released under the MIT license.
 
 Coach is a simple JavaScript API wrapper for the [Dribbble API](http://dribbble.com/api). Right now the API is in Beta, and as such is somewhat limited. Anything you can currently do with the API, you can do with this wrapper.
 
